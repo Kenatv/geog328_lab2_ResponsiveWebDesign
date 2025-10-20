@@ -1,15 +1,16 @@
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(252, 118, 40);
   overflow: hidden;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: beige;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,7 +25,7 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #002fff;
+  background-color: sandybrown;
   color: white;
 }
 
@@ -37,6 +38,24 @@
 .content {
   padding: 14px;
   font-size: 22px;
+}
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  color: #ff914d; /* soft orange fits corgi theme */
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8em;
+  color: #444;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  border-bottom: 3px solid #ff914d;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
 /* When the screen is less than 800 pixels wide */
