@@ -38,6 +38,7 @@
 .content {
   padding: 14px;
   font-size: 22px;
+  background-color: #fff8f0;
 }
 .title {
   font-family: 'Poppins', sans-serif;
@@ -45,7 +46,6 @@
   color: #ff914d; /* soft orange fits corgi theme */
   text-align: center;
   margin-top: 40px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 .subtitle {
   font-family: 'Poppins', sans-serif;
