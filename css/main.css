@@ -43,6 +43,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 20px;
 }
+/* Added style for title section */
 .title {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 60px;
@@ -50,6 +51,7 @@
   text-align: center;
   margin: 20px;
 }
+/* added style for subtitle with underline for creativity */
 .subtitle {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.8em;
@@ -60,6 +62,7 @@
   display: inline-block;
   padding-bottom: 5px;
 }
+/* created a third subtitle for more headings */
 .information{
   color: #444;
   border-bottom: 3px solid #ff914d;
